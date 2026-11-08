@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="MarmaladeCat 的个人主页，记录项目、学习与探索。">
+    <meta name="theme-color" content="#faf8f4">
+    <title>MarmaladeCat · 个人主页</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body class="home-body">
+    <a class="skip-link" href="#home">跳转到主要内容</a>
+    <div class="home-shell">
+      <header class="site-header page home-header">
+        <a class="brand" href="./" aria-label="MarmaladeCat 首页">
+          <span class="brand-mark" aria-hidden="true">MMC</span>
+          <span>MarmaladeCat</span>
+        </a>
+        <nav aria-label="主导航">
+          <a href="#home">首页</a>
+          <a href="#writing">博客</a>
+          <a href="./projects.html">项目</a>
+          <a href="./about.html">关于</a>
+        </nav>
+      </header>
+
+      <main class="home-pages" id="main" tabindex="0" aria-label="首页与博客列表，可上下滚动切换">
+        <section class="screen page" id="home" aria-labelledby="intro-title" tabindex="-1">
+          <div class="screen-content hero">
+            <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> A LITTLE CORNER OF THE INTERNET</p>
+            <h1 id="intro-title">你好，我是<br><span>MarmaladeCat.</span></h1>
+            <p class="hero-description">我相信，科技改变生活，推动生产力发展与生产关系变革，最终实现全人类的解放！</p>
+            <div class="hero-actions">
+              <a class="button" href="./projects.html">探索我的项目 <span aria-hidden="true">↗</span></a>
+              <a class="text-link" href="./about.html">认识我 <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+          <footer class="screen-footer">
+            <span>01 / 02 <span class="footer-note">· 从一个简单的页面开始</span></span>
+            <a class="screen-switch" href="#writing">向下滚动，阅读博客 <span aria-hidden="true">↓</span></a>
+          </footer>
+        </section>
+
+        <section class="screen page" id="writing" aria-labelledby="writing-title" tabindex="-1">
+          <div class="screen-content">
+            <header class="view-heading">
+              <p class="eyebrow">NOTES & STORIES</p>
+              <h2 id="writing-title">博客与记录<span class="heading-dot">.</span></h2>
+              <p class="muted">记录项目，也记录一路上的思考。</p>
+            </header>
+            <div class="post-list">
+              <article class="post-panel">
+                <div class="post-meta"><time datetime="2026-11-08">2026.11.08</time><span>项目介绍</span></div>
+                <div>
+                  <h3><a href="./blog/openasr.html">从说话到输入：认识 OpenASRInput 与 OpenASRPortal <span aria-hidden="true">↗</span></a></h3>
+                  <p class="muted">一个负责把语音变成日常输入，一个负责连接识别服务。介绍这两个开源项目的分工，以及如何搭配使用。</p>
+                  <a class="text-link" href="./blog/openasr.html">阅读全文 →</a>
+                </div>
+              </article>
+            </div>
+          </div>
+          <footer class="screen-footer">
+            <span>02 / 02 <span class="footer-note">· © MarmaladeCat</span></span>
+            <a class="screen-switch" href="#home">回到首页 <span aria-hidden="true">↑</span></a>
+          </footer>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
