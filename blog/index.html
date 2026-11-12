@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="MarmaladeCat 的分类博客列表。按主题浏览软件介绍、安装教程和配置指南。">
+    <meta name="theme-color" content="#faf8f4">
+    <title>博客 · MarmaladeCat</title>
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../styles.css">
+    <script src="../site.js" defer></script>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳转到主要内容</a>
+    <div class="page document-shell">
+      <header class="site-header">
+        <a class="brand" href="../" aria-label="MarmaladeCat 首页"><span class="brand-mark" aria-hidden="true">MMC</span><span>MarmaladeCat</span></a>
+        <nav aria-label="主导航"><a href="../">首页</a><a href="./" aria-current="page">博客</a><a href="../projects.html">我的开源项目</a><a href="../about.html">关于</a></nav>
+      </header>
+      <main class="view-main blog-index" id="main">
+        <header class="view-heading">
+          <p class="eyebrow">BLOG</p>
+          <h1>博客<span class="heading-dot">.</span></h1>
+          <p class="muted">按主题浏览项目介绍、操作教程与技术笔记。</p>
+        </header>
+        <nav class="category-links" aria-label="博客分类"><a href="#openasr">01 · OpenASR <span>4 篇</span></a></nav>
+        <section class="blog-category" id="openasr" data-group="01" aria-labelledby="openasr-title">
+          <details class="category-disclosure" open>
+            <summary class="category-heading"><h2 id="openasr-title">01 · OpenASR <span class="category-count">4 篇</span></h2></summary>
+            <p class="category-description">语音输入与识别服务：从了解功能，到安装、接入和日常使用。</p>
+          <label class="blog-sort" hidden>排序
+            <select aria-label="OpenASR 文章排序" data-blog-sort>
+              <option value="order">默认顺序</option>
+              <option value="published-desc">发布日期：从新到旧</option>
+              <option value="published-asc">发布日期：从旧到新</option>
+              <option value="updated-desc">更新时间：从新到旧</option>
+              <option value="updated-asc">更新时间：从旧到新</option>
+            </select>
+          </label>
+          <div class="blog-card-grid">
+            <article class="blog-card" data-order="1">
+              <h3><a href="01-01-openasr-guide.html">01 · OpenASR 软件介绍与使用</a></h3>
+              <p>介绍 Input 与 Portal 的功能、设计架构，以及听写、语音改写、热词和日常管理。</p>
+              <footer class="blog-dates"><span>发布 <time data-published datetime="2026-11-11">2026.11.11</time></span><span>更新 <time data-updated datetime="2026-11-12">2026.11.12</time></span></footer>
+            </article>
+            <article class="blog-card" data-order="2">
+              <h3><a href="01-02-openasr-installation.html">02 · OpenASR 安装与配置</a></h3>
+              <p>按系统和处理器选择安装包，完成 Windows、Linux 或 Docker 安装与首次配置。</p>
+              <footer class="blog-dates"><span>发布 <time data-published datetime="2026-11-11">2026.11.11</time></span><span>更新 <time data-updated datetime="2026-11-12">2026.11.12</time></span></footer>
+            </article>
+            <article class="blog-card" data-order="3">
+              <h3><a href="01-03-openasr-connections.html">03 · Portal 上下游接入配置</a></h3>
+              <p>配置四种云端识别上游，接入 Input 或自定义客户端，并管理代理与授权。</p>
+              <footer class="blog-dates"><span>发布 <time data-published datetime="2026-11-11">2026.11.11</time></span><span>更新 <time data-updated datetime="2026-11-12">2026.11.12</time></span></footer>
+            </article>
+            <article class="blog-card" data-order="4">
+              <h3><a href="01-04-openasr.html">04 · 认识 OpenASR</a></h3>
+              <p>简要了解系统语音输入工具与识别网关的分工，以及两个项目如何配合。</p>
+              <footer class="blog-dates"><span>发布 <time data-published datetime="2026-11-08">2026.11.08</time></span><span>更新 <time data-updated datetime="2026-11-12">2026.11.12</time></span></footer>
+            </article>
+          </div>
+          <p class="sort-status" role="status" aria-live="polite"></p>
+          </details>
+        </section>
+      </main>
+      <footer class="site-footer"><span>© MarmaladeCat</span><a href="../">返回首页</a><a href="#main">回到顶部 ↑</a></footer>
+    </div>
+  </body>
+</html>
